@@ -1,0 +1,69 @@
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    background-color: beige;
+} */
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  text-align: center;
+  /* background-color: beige; */
+}
+.counter > h1 {
+  margin: 1rem 0;
+}
+.counter > p {
+  margin-bottom: 1rem;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  min-width: 300px;
+
+  border: 2px solid;
+  border-radius: 10px;
+
+  background-color: aqua;
+}
+.countLabel {
+  font-size: 8rem;
+  text-align: center;
+}
+.counter-buttons button {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+#decreaseButton {
+  background-color: hsl(0, 100%, 50%);
+}
+#decreaseButton:hover {
+  background-color: hsl(0, 100%, 75%);
+}
+#increaseButton {
+  background-color: hsl(120, 100%, 50%);
+}
+#increaseButton:hover {
+  background-color: hsl(120, 100%, 75%);
+}
+@media (max-width: 600px) {
+  .counter-container {
+    width: 95%;
+  }
+  .counter-buttons button {
+    font-size: 16px;
+  }
+  .countLabel {
+    font-size: 6rem;
+  }
+}

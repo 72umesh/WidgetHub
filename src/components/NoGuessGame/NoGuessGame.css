@@ -1,0 +1,72 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family:  monospace;
+    font-size: 1.5rem;
+    background-color: #F2E5BF;
+} */
+
+.noGuessGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: monospace;
+  font-size: 1.2rem;
+  /* background-color: #f2e5bf; */
+}
+.noGuessGame > h1 {
+  margin: 1rem 0;
+}
+.noGuessGame > p {
+  margin-bottom: 1rem;
+}
+.noGuessGame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  width: 500px;
+
+  padding: 15px;
+  background-color: #cb6040;
+}
+#myInput {
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  border: #cb6040;
+  outline: none;
+}
+.guess-btn {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: hsl(20, 98%, 65%);
+}
+
+.result {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .noGuessGame {
+    font-size: 1rem;
+  }
+
+  .noGuessGame-container {
+    width: 85%;
+  }
+}
