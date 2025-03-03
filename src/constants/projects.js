@@ -1,6 +1,14 @@
 import images from "./data";
 const projects = [
   {
+    name: "Accordian",
+    preview: images.accordian,
+    description:
+      "An interactive UI component that expands to reveal hidden content when clicked.",
+    category: "UI Components",
+    route: "/accordian",
+  },
+  {
     name: "Password Generator",
     preview: images.passwordgenerator,
     description:

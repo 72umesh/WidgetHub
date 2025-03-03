@@ -8,12 +8,21 @@ import PasswordGenerator from "./components/PasswordGenerator/PasswordGenerator"
 import DiceRoller from "./components/DiceRoller/DiceRoller";
 import Counter from "./components/Counter/Counter";
 import NoGuessGame from "./components/NoGuessGame/NoGuessGame";
+import Accordian from "./components/Accordion/Accordian";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route
+          path="/accordian"
+          element={
+            <ProjectPage>
+              <Accordian />
+            </ProjectPage>
+          }
+        />
         <Route
           path="/password-generator"
           element={
