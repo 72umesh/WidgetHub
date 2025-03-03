@@ -25,6 +25,14 @@ const projects = [
     route: "/dice-roller",
   },
   {
+    name: "Load More Data",
+    preview: images.loadmoredata,
+    description:
+      "Displays more content gradually as the user clicks the 'Load More' button.",
+    category: "Utlity Tools",
+    route: "/load-more-data",
+  },
+  {
     name: "Counter",
     preview: images.counter,
     description: "A simple counter that increments and decrements numbers.",

@@ -9,6 +9,7 @@ import DiceRoller from "./components/DiceRoller/DiceRoller";
 import Counter from "./components/Counter/Counter";
 import NoGuessGame from "./components/NoGuessGame/NoGuessGame";
 import Accordian from "./components/Accordion/Accordian";
+import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
 
 function App() {
   return (
@@ -36,6 +37,14 @@ function App() {
           element={
             <ProjectPage>
               <DiceRoller />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/load-more-data"
+          element={
+            <ProjectPage>
+              <LoadMoreData />
             </ProjectPage>
           }
         />

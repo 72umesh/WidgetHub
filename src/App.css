@@ -57,6 +57,7 @@ body {
   display: flex;
   margin-left: 2rem;
   margin-top: 2.5em;
+  margin-bottom: 3rem;
 }
 @media (max-width: 600px) {
   .Back-Button {

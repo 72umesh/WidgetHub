@@ -116,8 +116,10 @@
   overflow: hidden;
 }
 .project-description {
-  margin: 0 1rem;
+  margin: 0 1rem 1rem;
   font-size: 0.8rem;
+  text-align: justify;
+  letter-spacing: 0.04em;
 }
 .view-project {
   text-decoration: none;
@@ -125,6 +127,7 @@
   color: black;
   margin: 1rem 0;
   align-self: center;
+  margin-top: auto;
 
   padding: 5px 10px;
   border-radius: 10px 0 10px 0;
