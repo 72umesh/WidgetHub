@@ -16,7 +16,7 @@
 
 ## **Demo**
 
-<!-- 🔗 [Live Preview](https://your-project-demo-link.com)   -->
+🔗 [Live Preview](https://72umesh.github.io/WidgetHub/#/)
 
 ## 🛠️ **Tech Stack**
 
@@ -29,11 +29,11 @@
 
 1️⃣ Clone the repository:
 
-git clone https://github.com/your-username/ProjectHub.git
+git clone https://github.com/72umesh/WidgetHub.git
 
 2️⃣ Navigate to the project folder:
 
-cd ProjectHub
+cd WidgetHub
 
 3️⃣ Install dependencies:
 
