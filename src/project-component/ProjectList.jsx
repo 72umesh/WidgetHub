@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 function ProjectList({ searchTerm }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   useEffect(() => {
-    document.body.style.backgroundColor = " #191919";
+    document.body.style.backgroundColor = " #020312";
   }, []);
   return (
     <div className="projects-container">

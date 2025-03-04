@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: black;
+  background-color: #020312;
   color: #fff;
   /* height: 40px; */
 }
@@ -63,5 +63,32 @@ body {
   .Back-Button {
     margin-top: 1.5rem;
     margin-left: 1rem;
+  }
+}
+.hero-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #020312, #1a1a2e);
+  color: white;
+}
+.hero-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hero-section p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 600px;
+  opacity: 0.9;
+  margin: 0 auto 1rem;
+}
+
+@media (max-width: 600px) {
+  .hero-section h1 {
+    font-size: 1.5rem;
+  }
+  .hero-section p {
+    font-size: 1rem;
   }
 }
