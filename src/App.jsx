@@ -10,6 +10,7 @@ import Counter from "./components/Counter/Counter";
 import NoGuessGame from "./components/NoGuessGame/NoGuessGame";
 import Accordian from "./components/Accordion/Accordian";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
+import ImageSliderURL from "./components/ImageSliderURL/ImageSliderURl";
 
 function App() {
   return (
@@ -61,6 +62,17 @@ function App() {
           element={
             <ProjectPage>
               <NoGuessGame />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/image-slider-url"
+          element={
+            <ProjectPage>
+              <ImageSliderURL
+                url={"https://picsum.photos/v2/list"}
+                limit={"10"}
+              />
             </ProjectPage>
           }
         />

@@ -46,6 +46,16 @@ const projects = [
     category: "Games",
     route: "/no-guess-game",
   },
+  {
+    name: "Image Slider",
+    preview: images.imagesliderurl,
+    description:
+      "A simple slider that smoothly transitions between multiple images.",
+    category: "UI Components",
+    route: "/image-slider-url",
+  },
 ];
+
+let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));
 
 export default projects;

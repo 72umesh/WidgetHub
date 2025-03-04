@@ -1,0 +1,93 @@
+.imageSliderUrl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+
+  color: #2a2a2a;
+  transition: all 0.3s ease-in-out;
+}
+.imageSliderUrl > h1 {
+  margin: 1rem 0;
+}
+.imageSliderUrl > p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.imageSliderUrl-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2.5rem;
+
+  border: 1px solid rgb(0, 0, 0);
+  padding: 1rem;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.image {
+  width: 85%;
+  aspect-ratio: 3/2;
+  transition: opacity 0.6s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.hide-image {
+  display: none;
+}
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  color: #4d55cc;
+}
+.arrow:hover {
+  color: #211c84;
+}
+.arrow-left {
+  left: 1rem;
+}
+.arrow-right {
+  right: 1rem;
+}
+@media (max-width: 600px) {
+  .imageSliderUrl-container {
+    width: 90%;
+  }
+  .image {
+    width: 80%;
+  }
+  .arrow-left {
+    left: 0.5em;
+  }
+  .arrow-right {
+    right: 0.5em;
+  }
+}
+.circle-button {
+  display: flex;
+  position: absolute;
+  bottom: 2rem;
+  gap: 0.04em;
+}
+.indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #8c98a9;
+}
+.indicatorCheck {
+  background-color: #4d55cc;
+}
+.loading,
+.error {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.error {
+  color: #d73a49;
+}
