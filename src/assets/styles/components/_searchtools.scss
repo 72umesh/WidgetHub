@@ -1,0 +1,57 @@
+@use "../util/mixins" as u;
+
+.search-tools {
+  @include u.flex-center;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+/* Search Bar */
+.searchBar-container {
+  @include u.flex-center;
+
+  .searchBar {
+    flex: 1;
+    max-width: 280px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+}
+
+// Random Widget
+.randomWidget {
+  @include u.flex-center;
+  button {
+    flex: 1;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+
+    @include u.flex-center;
+    gap: 10px;
+
+    background-color: black;
+    color: var(--color-text1);
+    border: 1px solid #fff;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .search-tools {
+    .randomWidget {
+      button {
+        font-size: 1rem;
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}

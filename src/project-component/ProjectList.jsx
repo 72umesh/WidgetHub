@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import projects from "../constants/projects";
 import FilterProjects from "./FilterProjects";
-import "./ProjectList.css";
+
 import { motion } from "framer-motion";
 
 function ProjectList({ searchTerm }) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   useEffect(() => {
-    document.body.style.backgroundColor = " #020312";
+    document.body.style.background = " #020312";
   }, []);
   return (
     <div className="projects-container">
@@ -43,14 +43,18 @@ function ProjectList({ searchTerm }) {
             >
               <div className="project-card-image">
                 <img src={project.preview} alt={project.name} />
+                <div className="project-card-image-overlay"></div>
               </div>
-              <h3>{project.name}</h3>
 
-              <p className="project-description">{project.description}</p>
+              <div className="project-card-descriptions">
+                <h3>{project.name}</h3>
 
-              <Link to={project.route} className="view-project">
-                View Project
-              </Link>
+                <p className="project-description">{project.description}</p>
+
+                <Link to={project.route} className="view-project">
+                  View Project
+                </Link>
+              </div>
             </motion.div>
           ))}
       </motion.div>

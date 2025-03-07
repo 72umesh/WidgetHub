@@ -1,0 +1,14 @@
+/* Back button */
+.Back-Button {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  margin: 3rem 0 3rem 2rem;
+}
+
+@media (max-width: 600px) {
+  .Back-Button {
+    margin: 1.5rem 0 0 1rem;
+  }
+}

@@ -1,0 +1,71 @@
+@use "../util/mixins" as u;
+.project-card {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text1);
+
+  border-radius: 15px;
+  border: 1px solid var(--color-gray);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.4);
+
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &-image {
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    &-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        to bottom,
+        hsla(240, 28%, 14%, 0.1),
+        var(--color-darkgray)
+      );
+      opacity: 0;
+    }
+  }
+  &-descriptions {
+    @include u.flex-column-center;
+    flex-grow: 1;
+
+    h3 {
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    .project-description {
+      margin: 0 1rem 1rem;
+      font-size: 0.8rem;
+      text-align: justify;
+      letter-spacing: 0.04em;
+      flex-grow: 1;
+    }
+    .view-project {
+      text-decoration: none;
+      background-color: var(--color-gray);
+      color: var(--color-bg);
+
+      padding: 5px 10px;
+      margin: 0.2rem 0 1rem;
+      border-radius: 10px 0 10px 0;
+
+      &:hover {
+        background: var(--color-darkgray);
+        color: var(--color-text1);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+  }
+}
+.project-card:hover .project-card-image-overlay {
+  opacity: 1;
+}

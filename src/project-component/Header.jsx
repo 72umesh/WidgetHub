@@ -2,8 +2,8 @@ import { MdWidgets } from "react-icons/md";
 function Header() {
   return (
     <div className="header">
-      <MdWidgets className="widget-logo" />
-      <div className="header-logo">WidgetsHub</div>
+      <MdWidgets className="header-logo" />
+      <div className="header-logo-name">WidgetsHub</div>
     </div>
   );
 }

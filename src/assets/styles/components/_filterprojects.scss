@@ -1,0 +1,64 @@
+/* Filter Projects */
+.category-filters {
+  position: sticky;
+  top: 20px;
+  width: 20%;
+  max-width: 200px;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-darkgray);
+  z-index: 10;
+
+  padding: 1rem;
+  border-radius: 15px;
+  margin-left: 20px;
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid hsla(0, 0%, 60%, 0.5);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    background-color: #404040;
+    color: var(--color-text1);
+
+    &.active {
+      border: 2px solid #fff;
+      transition: all 0.2s ease-in-out;
+    }
+    &:hover {
+      color: var(--color-bg);
+      background-color: var(--color-gray);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .category-filters {
+    width: 100%;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 0;
+    padding: 4px 8px;
+    gap: 10px;
+    top: 0;
+    background-color: var(--color-bg);
+    max-width: none;
+
+    button {
+      display: inline-block;
+      width: auto;
+      flex-shrink: 0;
+      padding: 0.4rem 0.6rem;
+    }
+  }
+}
