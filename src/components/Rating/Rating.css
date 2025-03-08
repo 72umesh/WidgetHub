@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+.rating > h1 {
+  margin: 1rem 0;
+  text-align: center;
+}
+.rating > p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+  border: 1px solid #443627;
+  color: #443627;
+}
+
+.star-rating {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star-active {
+  color: gold;
+}
+.star-inactive {
+  color: black;
+}
+
+.emoji-active {
+  filter: brightness(1.2);
+}
+.emoji-inactive {
+  opacity: 0.5;
+}
+.emoji-container .emojis span {
+  font-size: 2rem;
+}
+.emoji-container .texts {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .rating-container {
+    width: 90%;
+    justify-content: center;
+  }
+  .star-rating {
+    border: 1px solid red;
+    font-size: 1rem;
+  }
+  .star {
+    font-size: 1.8rem;
+  }
+}

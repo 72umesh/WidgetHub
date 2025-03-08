@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container"></div>
       <div className="footer-bottom">
-        <p>©{new Date().getFullYear()}WidgetHub. All Rights Reserved.</p>
+        <p>©{new Date().getFullYear()} WidgetHub. All Rights Reserved.</p>
       </div>
     </footer>
   );

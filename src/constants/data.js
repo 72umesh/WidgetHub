@@ -5,6 +5,7 @@ import noguessgame from "../assets/components-images/no-guess-game.png";
 import accordian from "../assets/components-images/accordian.png";
 import loadmoredata from "../assets/components-images/load-more-data.png";
 import imagesliderurl from "../assets/components-images/image-slider-url.png";
+import rating from "../assets/components-images/rating.png";
 
 const images = {
   diceroller,
@@ -14,6 +15,7 @@ const images = {
   accordian,
   loadmoredata,
   imagesliderurl,
+  rating,
 };
 
 export default images;

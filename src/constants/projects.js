@@ -54,6 +54,14 @@ const projects = [
     category: "UI Components",
     route: "/image-slider-url",
   },
+  {
+    name: "Rating",
+    preview: images.rating,
+    description:
+      "A  rating component with star, emoji, and text-based feedback options.",
+    category: "UI Components",
+    route: "/rating",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

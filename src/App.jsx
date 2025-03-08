@@ -9,6 +9,7 @@ import NoGuessGame from "./components/NoGuessGame/NoGuessGame";
 import Accordian from "./components/Accordion/Accordian";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
 import ImageSliderURL from "./components/ImageSliderURL/ImageSliderURl";
+import Rating from "./components/Rating/Rating";
 
 function App() {
   return (
@@ -74,12 +75,16 @@ function App() {
             </ProjectPage>
           }
         />
+        <Route
+          path="/rating"
+          element={
+            <ProjectPage>
+              <Rating />
+            </ProjectPage>
+          }
+        />
       </Routes>
     </Router>
-
-    // <>
-    //   <NoGuessGame />
-    // </>
   );
 }
 
