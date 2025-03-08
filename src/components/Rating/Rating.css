@@ -64,7 +64,6 @@
     justify-content: center;
   }
   .star-rating {
-    border: 1px solid red;
     font-size: 1rem;
   }
   .star {

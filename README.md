@@ -1,8 +1,7 @@
 # WidgetHub
 
-<!-- ![Project Preview](./src/assets/) -->
-
-## Overview
+![WidgetHub Banner](./src/assets/WidgetHub%20preview.png)
+[![WidgetHub](https://img.shields.io/badge/WidgetHub-Live--Demo-blue)](https://72umesh.github.io/WidgetHub/)
 
 **WidgetHub** is a React-based web app that showcases a collection of small, interactive projects and reusable UI components. It includes a **search** and **category filter** to easily find specific projects like Accordions, Counters, Dice Rollers, Password Manager and more.
 
@@ -12,16 +11,34 @@
 ✅ **Category Filters** – Filter projects by type (Games, UI Components, Utlity Tools, etc.)  
 ✅ **Grid Layout** – Responsive card-based display  
 ✅ **Dynamic Routing** – Each project opens in a new page  
-✅ **Modern UI** – Styled with CSS & Framer Motion animations
+✅ **Animations** – Powered by **Framer Motion** for smooth transitions.
+✅ **Modern UI** – Glassmorphism-inspired styling with **CSS & SCSS**.
 
-## **Demo**
+## ** 🔗 Live Demo**
 
-🔗 [Live Preview](https://72umesh.github.io/WidgetHub/#/)
+Check out the live version: [WidgetHub](https://72umesh.github.io/WidgetHub/)
+
+## 📂 Project Structure
+
+```
+WidgetHub/
+│── src/
+│   ├── components/   # Reusable components
+│   ├── pages/        # Pages for individual widgets
+│   ├── assets/       # Images and icons
+│   │    ├── styles/       # Global CSS & SCSS styles
+│   ├── App.js        # Main App Component
+│   ├── index.js      # Entry Point
+│
+│── public/           # Static assets
+│── README.md         # Project Documentation
+│── package.json      # Dependencies & Scripts
+```
 
 ## 🛠️ **Tech Stack**
 
 - **Frontend:** React.js, React Router
-- **Styling:** Vanilla CSS, Framer Motion
+- **CSS & SCSS** – Lightweight and customizable styling
 - **Routing:** React Router
 - **State Management:** useState, useEffect
 
@@ -58,6 +75,22 @@ Want to add your own component? Follow these steps:
 2. Write your component logic in NewComponent.jsx.
 
 3. Import & register it inside the projects.js file.
+
+## 📜 License
+
+This project is **open-source** under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+## 🌟 Show Your Support
+
+If you like this project, **star the repository** and share it with others!
+
+---
+
+Made with ❤️ by [Umesh](https://github.com/72umesh)
 
 📬 Connect with Me
 
