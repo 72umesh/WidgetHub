@@ -68,9 +68,11 @@ Want to add your own component? Follow these steps:
 
 1. Inside src/components/, create a new folder:
 
+```
 /NewComponent
 ├── NewComponent.jsx
 ├── NewComponent.css
+```
 
 2. Write your component logic in NewComponent.jsx.
 
@@ -95,4 +97,5 @@ Made with ❤️ by [Umesh](https://github.com/72umesh)
 📬 Connect with Me
 
 💼 Portfolio: https://umeshpalportfolio.vercel.app/
+
 📧 Email: umeshpal8141@gmail.com
