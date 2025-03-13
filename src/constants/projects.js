@@ -62,6 +62,14 @@ const projects = [
     category: "UI Components",
     route: "/rating",
   },
+  {
+    name: "Rock Paper Scissor",
+    preview: images.rockpaperscissor,
+    description:
+      "A classic hand game where you play against the computer to win rounds.",
+    category: "Games",
+    route: "/rock-paper-scissor",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

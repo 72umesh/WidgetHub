@@ -10,6 +10,7 @@ import Accordian from "./components/Accordion/Accordian";
 import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
 import ImageSliderURL from "./components/ImageSliderURL/ImageSliderURl";
 import Rating from "./components/Rating/Rating";
+import RockPaperScissor from "./components/RockPaperScissor/RockPaperScissor";
 
 function App() {
   return (
@@ -80,6 +81,14 @@ function App() {
           element={
             <ProjectPage>
               <Rating />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/rock-paper-scissor"
+          element={
+            <ProjectPage>
+              <RockPaperScissor />
             </ProjectPage>
           }
         />
