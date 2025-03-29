@@ -1,0 +1,82 @@
+const menus = [
+  {
+    label: "Home",
+    to: "/",
+  },
+  {
+    label: "Profile",
+    to: "/profile",
+    children: [
+      {
+        label: "Details",
+        to: "/details",
+        children: [
+          {
+            label: "Location",
+            to: "/location",
+            children: [
+              {
+                label: "City",
+                to: "/city",
+              },
+              {
+                label: "Area",
+                to: "/area",
+              },
+            ],
+          },
+          {
+            label: "Contact Info",
+            to: "/contactinfo",
+          },
+          {
+            label: "Date Of Birth",
+            to: "/dob",
+          },
+        ],
+      },
+      {
+        label: "View Profile",
+        to: "viewprofile",
+      },
+      {
+        label: "Edit Profile",
+        to: "editprofile",
+      },
+    ],
+  },
+  {
+    label: "Settings",
+    to: "/settings",
+    children: [
+      {
+        label: "Account",
+        to: "/account",
+      },
+      {
+        label: "Security",
+        to: "/security",
+        children: [
+          {
+            label: "Login",
+            to: "/login",
+          },
+          {
+            label: "Register",
+            to: "/resister",
+          },
+        ],
+      },
+      {
+        label: "Notifications",
+        to: "/notifications",
+      },
+      {
+        label: "Appearance",
+        to: "/appearance",
+      },
+    ],
+  },
+];
+
+export default menus;

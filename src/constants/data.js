@@ -7,6 +7,7 @@ import loadmoredata from "../assets/components-images/load-more-data.png";
 import imagesliderurl from "../assets/components-images/image-slider-url.png";
 import rating from "../assets/components-images/rating.png";
 import rockpaperscissor from "../assets/components-images/rock-paper-scissor.png";
+import treeview from "../assets/components-images/tree-view.png";
 
 const images = {
   diceroller,
@@ -18,6 +19,7 @@ const images = {
   imagesliderurl,
   rating,
   rockpaperscissor,
+  treeview,
 };
 
 export default images;

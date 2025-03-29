@@ -11,6 +11,7 @@ import LoadMoreData from "./components/LoadMoreData/LoadMoreData";
 import ImageSliderURL from "./components/ImageSliderURL/ImageSliderURl";
 import Rating from "./components/Rating/Rating";
 import RockPaperScissor from "./components/RockPaperScissor/RockPaperScissor";
+import TreeView from "./components/TreeView/TreeView";
 
 function App() {
   return (
@@ -89,6 +90,14 @@ function App() {
           element={
             <ProjectPage>
               <RockPaperScissor />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/tree-view"
+          element={
+            <ProjectPage>
+              <TreeView />
             </ProjectPage>
           }
         />

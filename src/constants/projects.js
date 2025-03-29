@@ -70,6 +70,14 @@ const projects = [
     category: "Games",
     route: "/rock-paper-scissor",
   },
+  {
+    name: "Tree View",
+    preview: images.treeview,
+    description:
+      "An expandable list component for visualizing hierarchical data structures",
+    category: "UI Components",
+    route: "/tree-view",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));
