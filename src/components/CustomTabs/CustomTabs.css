@@ -1,0 +1,71 @@
+/* CustomTabs */
+
+@import url("https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+
+.customTabs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Winky Rough", sans-serif;
+}
+.customTabs > h1 {
+  margin: 1rem 0;
+}
+.customTabs > p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.customTabs-container {
+  background-color: #7ac6d2;
+  width: 500px;
+  padding: 5px;
+}
+@media (max-width: 600px) {
+  .customTabs-container {
+    width: 75%;
+  }
+}
+/* Tabs */
+
+.tabs {
+  padding: 5px;
+}
+.tabs-heading-cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.tabs-item {
+  display: inline-flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  border: 0.01px solid hsl(188, 49%, 25%);
+  background-color: #3a59d1;
+  color: #fff;
+  width: 100%;
+}
+.tabs-item.active {
+  border: none;
+  background-color: aquamarine;
+  color: #3a59d1;
+}
+.tabs-content-cont {
+  padding: 20px 10px;
+  overflow: auto;
+  height: 350px;
+  background-color: aquamarine;
+}
+.tabs-content-cont h3 {
+  text-align: center;
+}
+.tabs-content-cont h4 {
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}

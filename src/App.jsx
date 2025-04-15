@@ -12,6 +12,7 @@ import ImageSliderURL from "./components/ImageSliderURL/ImageSliderURl";
 import Rating from "./components/Rating/Rating";
 import RockPaperScissor from "./components/RockPaperScissor/RockPaperScissor";
 import TreeView from "./components/TreeView/TreeView";
+import CustomTab from "./components/CustomTabs/CustomTabs";
 
 function App() {
   return (
@@ -98,6 +99,14 @@ function App() {
           element={
             <ProjectPage>
               <TreeView />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/custom-tabs"
+          element={
+            <ProjectPage>
+              <CustomTab />
             </ProjectPage>
           }
         />

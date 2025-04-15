@@ -78,6 +78,14 @@ const projects = [
     category: "UI Components",
     route: "/tree-view",
   },
+  {
+    name: "Custom Tabs",
+    preview: images.customtabs,
+    description:
+      "A tabbed interface that displays different content based on the selected tab",
+    category: "UI Components",
+    route: "/custom-tabs",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));
