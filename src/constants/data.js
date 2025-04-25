@@ -9,6 +9,7 @@ import rating from "../assets/components-images/rating.png";
 import rockpaperscissor from "../assets/components-images/rock-paper-scissor.png";
 import treeview from "../assets/components-images/tree-view.png";
 import customtabs from "../assets/components-images/custom-tabs.png";
+import drumkit from "../assets/components-images/drum-kit.png";
 
 const images = {
   diceroller,
@@ -22,6 +23,7 @@ const images = {
   rockpaperscissor,
   treeview,
   customtabs,
+  drumkit,
 };
 
 export default images;

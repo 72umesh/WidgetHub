@@ -21,7 +21,7 @@ const projects = [
     preview: images.diceroller,
     description:
       "A fun tool that rolls a virtual dice and displays a random outcome.",
-    category: "Games",
+    category: "Games & Fun",
     route: "/dice-roller",
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     name: "Number Guessing Game",
     preview: images.noguessgame,
     description: "Challenge yourself to guess a number between 1 and 100.",
-    category: "Games",
+    category: "Games & Fun",
     route: "/no-guess-game",
   },
   {
@@ -67,7 +67,7 @@ const projects = [
     preview: images.rockpaperscissor,
     description:
       "A classic hand game where you play against the computer to win rounds.",
-    category: "Games",
+    category: "Games & Fun",
     route: "/rock-paper-scissor",
   },
   {
@@ -85,6 +85,14 @@ const projects = [
       "A tabbed interface that displays different content based on the selected tab",
     category: "UI Components",
     route: "/custom-tabs",
+  },
+  {
+    name: "Drum Kit",
+    preview: images.drumkit,
+    description:
+      "A fun virtual drum kit that plays sounds when you click or press keys.",
+    category: "Games & Fun",
+    route: "/drum-kit",
   },
 ];
 

@@ -13,6 +13,7 @@ import Rating from "./components/Rating/Rating";
 import RockPaperScissor from "./components/RockPaperScissor/RockPaperScissor";
 import TreeView from "./components/TreeView/TreeView";
 import CustomTab from "./components/CustomTabs/CustomTabs";
+import DrumKit from "./components/DrumKit/DrumKit";
 
 function App() {
   return (
@@ -107,6 +108,14 @@ function App() {
           element={
             <ProjectPage>
               <CustomTab />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/drum-kit"
+          element={
+            <ProjectPage>
+              <DrumKit />
             </ProjectPage>
           }
         />

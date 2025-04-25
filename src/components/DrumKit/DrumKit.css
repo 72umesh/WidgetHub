@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+
+.drumKit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Cascadia Code", sans-serif;
+}
+.drumKit > h1 {
+  margin: 1rem 0;
+}
+.drumKit > p {
+  margin: 0 2rem 1rem;
+  text-align: center;
+}
+
+.drumKit-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 70%;
+  margin: 2rem 0;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: gold;
+  box-shadow: 0 0 1rem gold;
+}
+.pad {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 0.7rem;
+
+  background-color: #655e6f3c;
+  color: #fff;
+  cursor: pointer;
+}
+.pad kbd {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+.pad .pad-label {
+  font-size: 0.9rem;
+  color: gold;
+  font-family: "Cascadia Code", sans-serif;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .drumKit-container {
+    width: 90%;
+  }
+}
