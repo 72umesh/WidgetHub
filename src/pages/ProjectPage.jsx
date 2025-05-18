@@ -1,14 +1,18 @@
 import { Link } from "react-router-dom";
 import Header from "../project-component/Header";
+import Footer from "../project-component/Footer";
 
 function ProjectPage({ children }) {
   return (
     <div>
-      <Header />
-      {children}
-      <Link to="/" className="Back-Button">
-        ← Back
-      </Link>
+      <div className="project-page-container">
+        <Header />
+        {children}
+        <Link to="/" className="Back-Button">
+          ← Back
+        </Link>
+      </div>
+      <Footer />
     </div>
   );
 }
