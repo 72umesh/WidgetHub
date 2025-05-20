@@ -10,6 +10,7 @@ import rockpaperscissor from "../assets/components-images/rock-paper-scissor.png
 import treeview from "../assets/components-images/tree-view.png";
 import customtabs from "../assets/components-images/custom-tabs.png";
 import drumkit from "../assets/components-images/drum-kit.png";
+import temperatureconvertor from "../assets/components-images/temperature-convertor.png";
 
 const images = {
   diceroller,
@@ -24,6 +25,7 @@ const images = {
   treeview,
   customtabs,
   drumkit,
+  temperatureconvertor,
 };
 
 export default images;

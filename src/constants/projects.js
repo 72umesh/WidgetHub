@@ -94,6 +94,14 @@ const projects = [
     category: "Games & Fun",
     route: "/drum-kit",
   },
+  {
+    name: "Temperature Convertor",
+    preview: images.temperatureconvertor,
+    description:
+      "Converts temperature between Celsius, Fahrenheit, and Kelvin instantly.",
+    category: "Utlity Tools",
+    route: "/temperature-convertor",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

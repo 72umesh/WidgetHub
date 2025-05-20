@@ -14,6 +14,7 @@ import RockPaperScissor from "./components/RockPaperScissor/RockPaperScissor";
 import TreeView from "./components/TreeView/TreeView";
 import CustomTab from "./components/CustomTabs/CustomTabs";
 import DrumKit from "./components/DrumKit/DrumKit";
+import TemperatureConvertor from "./components/TemperatureConvertor/TemperatureConvertor";
 
 function App() {
   return (
@@ -116,6 +117,14 @@ function App() {
           element={
             <ProjectPage>
               <DrumKit />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/temperature-convertor"
+          element={
+            <ProjectPage>
+              <TemperatureConvertor />
             </ProjectPage>
           }
         />

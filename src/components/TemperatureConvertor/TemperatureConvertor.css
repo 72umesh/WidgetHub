@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+.temperature-convertor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Share Tech", sans-serif;
+}
+.temperature-convertor > h1 {
+  margin: 1rem 0;
+}
+.temperature-convertor > p {
+  margin-bottom: 1rem;
+}
+
+.temperature-convertor-container {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  background-color: #b2cd9c;
+}
+
+#temperatureUnit {
+  width: 6rem;
+  outline: none;
+  text-align: center;
+}
+#temperatureUnit,
+#fromUnit,
+#toUnit,
+#convert-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  font-family: "Share Tech", sans-serif;
+}
+.inputs {
+  display: flex;
+  gap: 1rem;
+}
+#convert-btn {
+  background-color: #b2cd9c;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+#convert-btn:disabled {
+  background-color: #f0f2bd;
+  color: #b2cd9c;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+#result {
+  text-align: center;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.5rem;
+  color: #4b352a;
+}
+@media (max-width: 600px) {
+  .temperature-convertor > p {
+    text-align: center;
+  }
+  .temperature-convertor-container {
+    width: 80%;
+  }
+  .inputs {
+    flex-direction: column;
+  }
+  #temperatureUnit,
+  #fromUnit,
+  #toUnit,
+  #convert-btn {
+    width: 90%;
+    /* font-size: 0.9rem; */
+  }
+  #result {
+    font-size: 1.4rem;
+  }
+}
