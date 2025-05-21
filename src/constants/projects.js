@@ -102,6 +102,13 @@ const projects = [
     category: "Utlity Tools",
     route: "/temperature-convertor",
   },
+  {
+    name: "Flex Planes",
+    preview: images.temperatureconvertor,
+    description: "Clickable Flexbox panels that expand to show text and images",
+    category: "UI Components",
+    route: "/flex-planes",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

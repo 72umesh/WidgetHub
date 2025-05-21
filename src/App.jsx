@@ -15,6 +15,7 @@ import TreeView from "./components/TreeView/TreeView";
 import CustomTab from "./components/CustomTabs/CustomTabs";
 import DrumKit from "./components/DrumKit/DrumKit";
 import TemperatureConvertor from "./components/TemperatureConvertor/TemperatureConvertor";
+import FlexPlanes from "./components/FlexPlanes/FlexPlanes";
 
 function App() {
   return (
@@ -125,6 +126,14 @@ function App() {
           element={
             <ProjectPage>
               <TemperatureConvertor />
+            </ProjectPage>
+          }
+        />
+        <Route
+          path="/flex-planes"
+          element={
+            <ProjectPage>
+              <FlexPlanes />
             </ProjectPage>
           }
         />
