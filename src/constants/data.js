@@ -11,6 +11,7 @@ import treeview from "../assets/components-images/tree-view.png";
 import customtabs from "../assets/components-images/custom-tabs.png";
 import drumkit from "../assets/components-images/drum-kit.png";
 import temperatureconvertor from "../assets/components-images/temperature-convertor.png";
+import flexplanes from "../assets/components-images/flex-planes.png";
 
 const images = {
   diceroller,
@@ -26,6 +27,7 @@ const images = {
   customtabs,
   drumkit,
   temperatureconvertor,
+  flexplanes,
 };
 
 export default images;

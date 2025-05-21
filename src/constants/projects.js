@@ -104,7 +104,7 @@ const projects = [
   },
   {
     name: "Flex Planes",
-    preview: images.temperatureconvertor,
+    preview: images.flexplanes,
     description: "Clickable Flexbox panels that expand to show text and images",
     category: "UI Components",
     route: "/flex-planes",
