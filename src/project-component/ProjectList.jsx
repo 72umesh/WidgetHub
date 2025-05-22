@@ -42,7 +42,7 @@ function ProjectList({ searchTerm }) {
               whileTap={{ scale: 0.95 }}
             >
               <div className="project-card-image">
-                <img src={project.preview} alt={project.name} />
+                <img src={project.preview} alt={project.name} loading="lazy" />
                 <div className="project-card-image-overlay"></div>
               </div>
 
