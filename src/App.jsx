@@ -16,6 +16,7 @@ import CustomTab from "./components/CustomTabs/CustomTabs";
 import DrumKit from "./components/DrumKit/DrumKit";
 import TemperatureConvertor from "./components/TemperatureConvertor/TemperatureConvertor";
 import FlexPlanes from "./components/FlexPlanes/FlexPlanes";
+import TypeAhead from "./components/TypeAhead/TypeAhead";
 
 function App() {
   return (
@@ -134,6 +135,15 @@ function App() {
           element={
             <ProjectPage>
               <FlexPlanes />
+            </ProjectPage>
+          }
+        />
+
+        <Route
+          path="/type-ahead"
+          element={
+            <ProjectPage>
+              <TypeAhead />
             </ProjectPage>
           }
         />

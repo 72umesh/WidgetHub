@@ -109,6 +109,13 @@ const projects = [
     category: "UI Components",
     route: "/flex-planes",
   },
+  {
+    name: "Type Ahead",
+    preview: images.flexplanes,
+    description: "Clickable Flexbox panels that expand to show text and images",
+    category: "UI Components",
+    route: "/type-ahead",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

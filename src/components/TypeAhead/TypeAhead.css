@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+.typeAhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Karla", sans-serif;
+}
+.typeAhead > h1 {
+  margin: 1rem 0;
+}
+.typeAhead > p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.typeAhead-container {
+  padding: 10px 25px;
+  height: auto;
+  width: 500px;
+  max-width: 500px;
+}
+
+input.searchBar {
+  width: 120%;
+  padding: 20px 30px;
+  outline: none;
+  border: 10px solid #129990;
+  border-radius: 5px;
+
+  position: relative;
+  left: -10%;
+  font-size: 2rem;
+  text-align: center;
+}
+.suggestions {
+  position: relative;
+}
+.suggestions li {
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0;
+  padding: 10px 15px;
+
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+.suggestions li:nth-child(even) {
+  transform: perspective(100px) rotateX(3deg) translateY(4px) scale(1.001);
+}
+.suggestions li:nth-child(odd) {
+  transform: perspective(100px) rotateX(-3deg) translateY(4.5px);
+}
+.hl {
+  color: #fffbde;
+  background-color: #129990;
+}
+@media (max-width: 900px) {
+  .typeAhead-container {
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .typeAhead-container {
+    width: 80%;
+  }
+  input.searchBar {
+    padding: 10px 15px;
+  }
+}
