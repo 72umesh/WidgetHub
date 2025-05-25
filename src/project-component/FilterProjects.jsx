@@ -1,5 +1,12 @@
 function FilterProjects({ selectedCategory, setSelectedCategory }) {
-  const categories = ["All", "Utlity Tools", "Games & Fun", "UI Components"];
+  const categories = [
+    "All",
+    "Utlity Tools",
+    "API Based",
+    "Games & Fun",
+    "UI Components",
+  ];
+
   return (
     <div className="category-filters">
       {categories.map((category) => (

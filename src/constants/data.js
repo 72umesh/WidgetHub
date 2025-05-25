@@ -12,6 +12,7 @@ import customtabs from "../assets/components-images/custom-tabs.png";
 import drumkit from "../assets/components-images/drum-kit.png";
 import temperatureconvertor from "../assets/components-images/temperature-convertor.png";
 import flexplanes from "../assets/components-images/flex-planes.png";
+import typeahead from "../assets/components-images/type-ahead.png";
 
 const images = {
   diceroller,
@@ -28,6 +29,7 @@ const images = {
   drumkit,
   temperatureconvertor,
   flexplanes,
+  typeahead,
 };
 
 export default images;

@@ -58,7 +58,10 @@ function TypeAhead() {
   return (
     <div className="typeAhead">
       <h1>Type Ahead</h1>
-      <p></p>
+      <p>
+        Live search UI with city/state suggestions and real-time highlighted
+        matches.
+      </p>
 
       <div className="typeAhead-container">
         <form className="searchForm">

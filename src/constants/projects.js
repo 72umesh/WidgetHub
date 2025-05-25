@@ -111,9 +111,10 @@ const projects = [
   },
   {
     name: "Type Ahead",
-    preview: images.flexplanes,
-    description: "Clickable Flexbox panels that expand to show text and images",
-    category: "UI Components",
+    preview: images.typeahead,
+    description:
+      "Auto-suggest dropdown that filters US cities and states in real-time with input highlighting.",
+    category: "API Based",
     route: "/type-ahead",
   },
 ];
