@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./WordCounter.css";
+import NamasteButton from "../../project-component/NamasteButton";
+import questionLinks from "../../constants/questionsLinks";
 
 function WordCounter() {
   const [text, setText] = useState("");
@@ -59,6 +61,8 @@ function WordCounter() {
           </div>
         )}
       </div>
+
+      <NamasteButton url={questionLinks.wordCounter} />
     </div>
   );
 }

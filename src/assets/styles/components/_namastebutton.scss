@@ -1,0 +1,18 @@
+.namaste-btn {
+  background: linear-gradient(135deg, #ff6f61, #ff8a75);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.7rem 1.2rem;
+
+  border-radius: 8px;
+
+  margin-top: 100px;
+}
+
+.namaste-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
