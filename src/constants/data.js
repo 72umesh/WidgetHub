@@ -13,6 +13,7 @@ import drumkit from "../assets/components-images/drum-kit.png";
 import temperatureconvertor from "../assets/components-images/temperature-convertor.png";
 import flexplanes from "../assets/components-images/flex-planes.png";
 import typeahead from "../assets/components-images/type-ahead.png";
+import wordcounter from "../assets/components-images/word-counter.png";
 
 const images = {
   diceroller,
@@ -30,6 +31,7 @@ const images = {
   temperatureconvertor,
   flexplanes,
   typeahead,
+  wordcounter,
 };
 
 export default images;

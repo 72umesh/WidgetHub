@@ -17,6 +17,7 @@ import DrumKit from "./components/DrumKit/DrumKit";
 import TemperatureConvertor from "./components/TemperatureConvertor/TemperatureConvertor";
 import FlexPlanes from "./components/FlexPlanes/FlexPlanes";
 import TypeAhead from "./components/TypeAhead/TypeAhead";
+import WordCounter from "./components/WordCounter.js/WordCounter";
 
 function App() {
   return (
@@ -144,6 +145,15 @@ function App() {
           element={
             <ProjectPage>
               <TypeAhead />
+            </ProjectPage>
+          }
+        />
+
+        <Route
+          path="/word-counter"
+          element={
+            <ProjectPage>
+              <WordCounter />
             </ProjectPage>
           }
         />

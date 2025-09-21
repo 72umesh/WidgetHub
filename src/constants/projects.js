@@ -117,6 +117,14 @@ const projects = [
     category: "API Based",
     route: "/type-ahead",
   },
+  {
+    name: "Word Frequency Counter",
+    preview: images.wordcounter,
+    description:
+      "Counts how often each word appears in your text, helping you analyze content easily.",
+    category: "Utlity Tools",
+    route: "/word-counter",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));
