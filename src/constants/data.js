@@ -14,6 +14,7 @@ import temperatureconvertor from "../assets/components-images/temperature-conver
 import flexplanes from "../assets/components-images/flex-planes.png";
 import typeahead from "../assets/components-images/type-ahead.png";
 import wordcounter from "../assets/components-images/word-counter.png";
+import backtotop from "../assets/components-images/back-to-top.png";
 
 const images = {
   diceroller,
@@ -32,6 +33,7 @@ const images = {
   flexplanes,
   typeahead,
   wordcounter,
+  backtotop,
 };
 
 export default images;

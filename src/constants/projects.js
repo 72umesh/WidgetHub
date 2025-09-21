@@ -125,6 +125,14 @@ const projects = [
     category: "Utlity Tools",
     route: "/word-counter",
   },
+  {
+    name: "Back to Top",
+    preview: images.backtotop,
+    description:
+      "Displays a button that lets users quickly scroll back to the top of the page.",
+    category: "Utlity Tools",
+    route: "/back-to-top",
+  },
 ];
 
 let sortArray = projects.sort((a, b) => a.name.localeCompare(b.name));

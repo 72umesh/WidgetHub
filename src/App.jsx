@@ -18,6 +18,7 @@ import TemperatureConvertor from "./components/TemperatureConvertor/TemperatureC
 import FlexPlanes from "./components/FlexPlanes/FlexPlanes";
 import TypeAhead from "./components/TypeAhead/TypeAhead";
 import WordCounter from "./components/WordCounter.js/WordCounter";
+import BackToTop from "./components/BackToTop/BackToTop";
 
 function App() {
   return (
@@ -154,6 +155,15 @@ function App() {
           element={
             <ProjectPage>
               <WordCounter />
+            </ProjectPage>
+          }
+        />
+
+        <Route
+          path="/back-to-top"
+          element={
+            <ProjectPage>
+              <BackToTop />
             </ProjectPage>
           }
         />
