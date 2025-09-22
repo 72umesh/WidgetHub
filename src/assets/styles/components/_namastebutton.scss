@@ -1,11 +1,12 @@
 .namaste-btn {
-  background: linear-gradient(135deg, #ff6f61, #ff8a75);
+  background: linear-gradient(135deg, var(--color-bg), var(--color-darkgray));
   color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 
   font-weight: 600;
   text-decoration: none;
   padding: 0.7rem 1.2rem;
+  letter-spacing: 0.04em;
 
   border-radius: 8px;
 
