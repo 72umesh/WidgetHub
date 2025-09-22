@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./BackToTop.css";
+import NamasteButton from "../../project-component/NamasteButton";
+import questionLinks from "../../constants/questionsLinks";
 
 function BackToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -53,6 +55,8 @@ function BackToTop() {
           </button>
         )}
       </div>
+
+      <NamasteButton url={questionLinks.backToTop} />
     </div>
   );
 }
