@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./PasswordGenerator.css";
 import { FiClipboard } from "react-icons/fi";
+import NamasteButton from "../../project-component/NamasteButton";
+import questionLinks from "../../constants/questionsLinks";
 
 function PasswordGenerator() {
   const [password, setPassword] = useState("");
@@ -114,6 +116,8 @@ function PasswordGenerator() {
           />
           <FiClipboard onClick={copytoClipboard} />
         </div>
+
+        <NamasteButton url={questionLinks.passwordGenerator} />
       </div>
     </div>
   );

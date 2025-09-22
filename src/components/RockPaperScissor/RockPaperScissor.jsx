@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "./RockPaperScissor.css";
+import NamasteButton from "../../project-component/NamasteButton";
+import questionLinks from "../../constants/questionsLinks";
 
 function RockPaperScissor() {
   const choices = ["rock", "paper", "scissor"];
@@ -77,6 +79,8 @@ function RockPaperScissor() {
           <button onClick={Reset}>Reset</button>
         </div>
       </div>
+
+      <NamasteButton url={questionLinks.rockPaperScissor} />
     </div>
   );
 }
